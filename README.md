@@ -4,15 +4,20 @@ Field operations manual for the **National Coastal Drone Programme** — a
 nationally coordinated archive of UAV coastal survey data, coordinated by
 Deakin University and funded by AuScope (NCRIS).
 
-Written for citizen science volunteers and partner organisations flying
-RTK drone surveys of the Australian coast. It covers equipment, site setup,
-mission planning, flight operations, safety and incident reporting, and how
-to upload a completed survey.
+Written for citizen science volunteers and partner organisations flying RTK
+drone surveys of the Australian coast. It covers equipment, site selection,
+mission planning, flight operations, safety and incident reporting, and how to
+upload a completed survey.
 
-| Path | What it is |
+## Download
+
+| File | |
 |---|---|
-| `field-manual.md` | The manual |
-| `media/` | Figures and screenshots referenced by the manual |
+| [NCDP_Field_Manual_v1.0.pdf](NCDP_Field_Manual_v1.0.pdf) | PDF, 61 pages — for reading and printing |
+| [NCDP_Field_Manual_v1.0.docx](NCDP_Field_Manual_v1.0.docx) | Word version |
+
+The field manual is available to anyone as part of the NCDP programme and can
+be downloaded for your own personal use.
 
 ## Authors
 
@@ -24,6 +29,10 @@ Data standards, metadata schema and templates are published separately at
 [NCDP-Australia/ncdp-standards](https://github.com/NCDP-Australia/ncdp-standards).
 Surveys are submitted through the intake portal at
 [ncdp.auscope.org.au](https://ncdp.auscope.org.au).
+
+The citizen science UAV approach the manual is built on is documented in
+Ierodiaconou et al. (2022), *Continental Shelf Research* 244:104800,
+[doi:10.1016/j.csr.2022.104800](https://doi.org/10.1016/j.csr.2022.104800).
 
 ## Versioning
 
