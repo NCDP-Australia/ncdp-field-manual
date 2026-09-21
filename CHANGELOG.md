@@ -1,6 +1,13 @@
 # Changelog
 
+Each edition has its own DOI. To cite the manual in general, use the
+concept DOI [10.5281/zenodo.22867526](https://doi.org/10.5281/zenodo.22867526),
+which always resolves to the latest edition.
+
 ## v1.0 — 2026-09-15
+
+DOI: [10.5281/zenodo.22867527](https://doi.org/10.5281/zenodo.22867527)
+(archived on Zenodo 2026-09-21)
 
 First public release.
 
