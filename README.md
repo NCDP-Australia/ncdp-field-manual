@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22867526.svg)](https://doi.org/10.5281/zenodo.22867526)
 
-Field operations manual for the **National Coastal Drone Programme** — a
+Field operations manual for the **National Coastal Drone Program** — a
 nationally coordinated archive of UAV coastal survey data, coordinated by
 Deakin University and funded by AuScope (NCRIS).
 
@@ -29,7 +29,7 @@ The manual is free for anyone to use, share and adapt under
 ## How to cite
 
 > Ierodiaconou, D., Allan, B., & Nuyts, S. (2026). *National Coastal Drone
-> Programme (NCDP) Field Manual*. Zenodo.
+> Program (NCDP) Field Manual*. Zenodo.
 > https://doi.org/10.5281/zenodo.22867526
 
 To cite a specific edition (for example, the one used in a study), use that
