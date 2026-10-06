@@ -2,7 +2,15 @@
 
 Each edition has its own DOI. To cite the manual in general, use the
 concept DOI [10.5281/zenodo.22867526](https://doi.org/10.5281/zenodo.22867526),
-which always resolves to the latest edition.
+which always resolves to the latest edition. The repository files
+(`NCDP_Field_Manual.pdf`, `.docx`) are the current working copy and keep the
+same names across editions; the edition is on the cover page and here.
+
+## Unreleased (working copy)
+
+- Repository files renamed from `NCDP_Field_Manual_v1.0.*` to
+  `NCDP_Field_Manual.*` so the website and other links stay stable across
+  editions (2026-10-06). No change to the manual's content.
 
 ## v1.0 — 2026-09-15
 

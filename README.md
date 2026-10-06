@@ -13,15 +13,20 @@ upload a completed survey.
 
 ## Download
 
-The citable, archived copy is on Zenodo:
-**[doi.org/10.5281/zenodo.22867526](https://doi.org/10.5281/zenodo.22867526)**.
-That DOI always resolves to the latest edition; each edition also has its own
-DOI, listed on the Zenodo record.
-
 | File | |
 |---|---|
-| [NCDP_Field_Manual_v1.0.pdf](NCDP_Field_Manual_v1.0.pdf) | PDF, 61 pages — for reading and printing |
-| [NCDP_Field_Manual_v1.0.docx](NCDP_Field_Manual_v1.0.docx) | Word version, for adapting |
+| [NCDP_Field_Manual.pdf](NCDP_Field_Manual.pdf) | PDF, 61 pages — for reading and printing |
+| [NCDP_Field_Manual.docx](NCDP_Field_Manual.docx) | Word version, for adapting |
+
+These are the current working copies, including any corrections made since
+the last published edition. The edition is printed on the manual's cover page
+and listed in [CHANGELOG.md](CHANGELOG.md). Direct link to the latest PDF:
+`https://raw.githubusercontent.com/NCDP-Australia/ncdp-field-manual/main/NCDP_Field_Manual.pdf`.
+
+The citable, archived copy of each edition is on Zenodo:
+**[doi.org/10.5281/zenodo.22867526](https://doi.org/10.5281/zenodo.22867526)**.
+That DOI always resolves to the latest edition; each edition also has its own
+DOI, listed on the Zenodo record and in the changelog.
 
 The manual is free for anyone to use, share and adapt under
 [CC BY 4.0](LICENSE), provided the NCDP Field Manual is credited (see below).
@@ -54,13 +59,29 @@ Ierodiaconou et al. (2022), *Continental Shelf Research* 244:104800,
 
 ## Versioning
 
-Released as `v1.0`. The manual is versioned independently of the data
-standards — a change to the metadata schema does not imply a new manual, and
-vice versa. Changes are recorded in [CHANGELOG.md](CHANGELOG.md).
+The files keep the same names from edition to edition; the edition lives in
+the document, the changelog and the git history. The manual is versioned
+independently of the data standards — a change to the metadata schema does
+not imply a new manual, and vice versa.
 
-To publish a new edition: update the files here, then on the Zenodo record use
-**New version**, upload the new PDF and set the version number. The concept
-DOI above moves to it automatically; nothing on the NCDP website needs changing.
+Current edition: **v1.0** (2026-09-15).
+
+To publish a new edition:
+
+1. Update the `.docx`, export the `.pdf`, and update the edition and date on
+   the cover page.
+2. Add the edition to [CHANGELOG.md](CHANGELOG.md), commit, and tag the commit
+   `vX.Y` (`git tag -a v1.1 -m "Field Manual v1.1" && git push --tags`).
+3. On the Zenodo record, use **New version**, upload the new PDF, set the
+   version number to `X.Y` and publish. Paste the new edition's DOI into the
+   changelog entry.
+
+The concept DOI moves to the new edition automatically; the website's
+Resources page links the concept DOI and the repository PDF, so nothing there
+needs changing.
+
+Small corrections between editions (typos, a changed URL) can be committed to
+the working copy without a new edition; they are folded into the next one.
 
 ## Licence
 
