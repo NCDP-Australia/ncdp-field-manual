@@ -1,16 +1,11 @@
 # Changelog
 
-Each edition has its own DOI. To cite the manual in general, use the
-concept DOI [10.5281/zenodo.22867526](https://doi.org/10.5281/zenodo.22867526),
-which always resolves to the latest edition. The repository files
-(`NCDP_Field_Manual.pdf`, `.docx`) are the current working copy and keep the
-same names across editions; the edition is on the cover page and here.
+## Moved — 2026-10-28
 
-## Unreleased (working copy)
-
-- Repository files renamed from `NCDP_Field_Manual_v1.0.*` to
-  `NCDP_Field_Manual.*` so the website and other links stay stable across
-  editions (2026-10-06). No change to the manual's content.
+The Field Manual continues as part of the NCDP Data Standards and Procedures
+([NCDP-Australia/ncdp-standards](https://github.com/NCDP-Australia/ncdp-standards), from revision 5.01,
+concept DOI [10.5281/zenodo.23127540](https://doi.org/10.5281/zenodo.23127540)). This repository is
+archived; its files are edition v1.0.
 
 ## v1.0 — 2026-09-15
 
@@ -26,7 +21,3 @@ First public release.
 - Added a References section, and cited Ierodiaconou et al. (2022) in
   "How It Works" as the published account of the citizen science UAV approach
   the manual is built on.
-
-Note: the table of contents page numbers are as exported. Open the .docx in
-Word and refresh the field (Ctrl+A, F9) if they need to be exact after
-further edits.
